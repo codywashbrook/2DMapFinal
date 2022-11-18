@@ -11,11 +11,11 @@ namespace _2DMapFinal
         static void Main(string[] args)
         {
             Map.ShowMap();
-
+            Console.WriteLine();
             Map.ShowMap(2);
-
+            Console.WriteLine();
             Map.ShowMap(3);
-
+            Console.WriteLine();
             Map.ShowMap(10);
 
 
