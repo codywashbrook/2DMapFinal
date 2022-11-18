@@ -10,7 +10,7 @@ namespace _2DMapFinal
     {
         static void Main(string[] args)
         {
-            Map.ShowMap(1);
+            Map.DrawMap();
 
             Map.ShowMap(2);
 
