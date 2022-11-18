@@ -10,7 +10,7 @@ namespace _2DMapFinal
     {
         static void Main(string[] args)
         {
-            Map.DrawMap();
+            Map.ShowMap();
 
             Map.ShowMap(2);
 
@@ -55,7 +55,7 @@ namespace _2DMapFinal
                 Console.Write(c);
             }
 
-            public static void DrawMap()
+            public static void ShowMap()
             {
                 void Border(char edgeA, char edgeB)
                 {
